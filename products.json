@@ -1,0 +1,111 @@
+{
+  "site": {
+    "site_url": "https://digiswiss-tech.github.io",
+    "brand": "Coaching Codex",
+    "support_email": "",
+    "lead_form_action": "",
+    "_notes": "site_url = public base URL once hosted (used for Stripe redirects). lead_form_action = POST URL from your email tool (MailerLite/ConvertKit/Brevo form). Fill stripe_payment_link per product via build/stripe_setup.py or by hand."
+  },
+  "products": [
+    {
+      "id": "CC-01",
+      "n": 1,
+      "slug": "50-copy-paste-ai-prompts-for-small-business-owners",
+      "title": "50 Copy-Paste AI Prompts for Small Business Owners",
+      "area": "A",
+      "area_name": "ChatGPT & LLM prompting for business",
+      "promise": "Fill in the brackets, paste, and get useful work done in minutes.",
+      "price_usd": 2.7,
+      "cover": "assets/covers/50-copy-paste-ai-prompts-for-small-business-owners.png",
+      "pdf_file": "Coaching-Codex_50-AI-Prompts-for-Small-Business.pdf",
+      "download_token": "2CUB3FtDdYmy",
+      "download_page": "dl/50-copy-paste-ai-prompts-for-small-business-owners-2CUB3FtDdYmy/",
+      "stripe_payment_link": "",
+      "stripe_product_id": ""
+    },
+    {
+      "id": "CC-04",
+      "n": 2,
+      "slug": "write-a-week-of-social-media-posts-in-30-minutes-with-ai",
+      "title": "Write a Week of Social Media Posts in 30 Minutes with AI",
+      "area": "B",
+      "area_name": "AI for marketing & social content",
+      "promise": "Plan, write, adapt and schedule seven on-brand posts in one sitting.",
+      "price_usd": 2.7,
+      "cover": "assets/covers/write-a-week-of-social-media-posts-in-30-minutes-with-ai.png",
+      "pdf_file": "Coaching-Codex_Week-of-Social-Posts-in-30-Minutes.pdf",
+      "download_token": "EfxK8QoCxEyj",
+      "download_page": "dl/write-a-week-of-social-media-posts-in-30-minutes-with-ai-EfxK8QoCxEyj/",
+      "stripe_payment_link": "",
+      "stripe_product_id": ""
+    },
+    {
+      "id": "CC-09",
+      "n": 3,
+      "slug": "automate-your-inbox-and-customer-replies-with-ai",
+      "title": "Automate Your Inbox and Customer Replies with AI",
+      "area": "D",
+      "area_name": "AI for customer support",
+      "promise": "Sort, draft and automate customer replies while you stay in control.",
+      "price_usd": 2.7,
+      "cover": "assets/covers/automate-your-inbox-and-customer-replies-with-ai.png",
+      "pdf_file": "Coaching-Codex_Automate-Your-Inbox-and-Customer-Replies.pdf",
+      "download_token": "WgqbysO4x7tm",
+      "download_page": "dl/automate-your-inbox-and-customer-replies-with-ai-WgqbysO4x7tm/",
+      "stripe_payment_link": "",
+      "stripe_product_id": ""
+    },
+    {
+      "id": "CC-02",
+      "n": 4,
+      "slug": "chatgpt-claude-gemini-or-copilot-pick-the-right-ai",
+      "title": "ChatGPT, Claude, Gemini or Copilot? Pick the Right AI Assistant in 15 Minutes",
+      "area": "A",
+      "area_name": "ChatGPT & LLM prompting for business",
+      "promise": "Stop tool-hopping: choose one assistant that fits how you already work.",
+      "price_usd": 2.7,
+      "cover": "assets/covers/chatgpt-claude-gemini-or-copilot-pick-the-right-ai.png",
+      "pdf_file": "Coaching-Codex_chatgpt-claude-gemini-or-copilot-pick-the-right-ai.pdf",
+      "download_token": "UAycCdkKoB8y",
+      "download_page": "dl/chatgpt-claude-gemini-or-copilot-pick-the-right-ai-UAycCdkKoB8y/",
+      "stripe_payment_link": "",
+      "stripe_product_id": ""
+    }
+  ],
+  "bundles": [
+    {
+      "slug": "starter-3-pack",
+      "title": "Starter 3-Pack",
+      "price_usd": 6.9,
+      "desc": "The three launch guides: 50 Prompts, Week of Social Posts, Inbox Automation.",
+      "includes": [
+        "CC-01",
+        "CC-04",
+        "CC-09"
+      ],
+      "stripe_payment_link": "",
+      "download_page": "dl/starter-3-pack-tGcsAJ0Hnvut/"
+    },
+    {
+      "slug": "themed-5-pack",
+      "title": "Any 5-Pack",
+      "price_usd": 9.9,
+      "desc": "Pick any five guides from the library. Save over 25% versus singles.",
+      "includes": [],
+      "stripe_payment_link": "",
+      "download_page": ""
+    },
+    {
+      "slug": "all-access",
+      "title": "All-Access Library",
+      "price_usd": 29.0,
+      "desc": "Every current guide plus every future release (a new one every day).",
+      "includes": [
+        "ALL"
+      ],
+      "stripe_payment_link": "",
+      "download_page": "dl/all-access-JZXNrdttDoxc/",
+      "featured": true
+    }
+  ]
+}
